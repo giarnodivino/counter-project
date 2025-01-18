@@ -42,6 +42,7 @@ while(True):
 
     cv2.imshow("Webcam", frame)
     if cv2.waitKey(1) == ord('q'):
+        print("Stream Ended")
         break
 
 stream.release()
